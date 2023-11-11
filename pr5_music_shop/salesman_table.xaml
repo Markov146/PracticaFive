@@ -1,0 +1,40 @@
+﻿<Window x:Class="pr5_music_shop.salesman_table"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pr5_music_shop"
+        mc:Ignorable="d"
+        Title="salesman_table" Height="450" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+        <Button x:Name="table_catalog" Content="Таблица catalog" Grid.Row="0" Grid.Column="0" VerticalAlignment="Top" Click="table_catalog_Click" Margin="0,2,0,0"/>
+        <Button x:Name="table_instruments" Content="Таблица instruments" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Click="table_instruments_Click"/>
+        <Button x:Name="table_musical_equipment" Content="Таблица musical_equipment" Grid.Row="0" Grid.Column="0" VerticalAlignment="Top" Click="table_musical_equipment_Click" Margin="0,50,0,0"/>
+        <Button x:Name="table_piano" Content="Таблица piano" Grid.Row="1" Grid.Column="0" VerticalAlignment="Top" Click="table_piano_Click" Margin="0,2,0,0"/>
+        <Button x:Name="table_guitar" Content="Таблица guitar" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Click="table_guitar_Click"/>
+        <Button x:Name="table_drums" Content="Таблица drums" Grid.Row="1" Grid.Column="0" VerticalAlignment="Top" Click="table_drums_Click" Margin="0,50,0,0"/>
+        <Button x:Name="table_vivnil_player" Content="Таблица vivnil_player" Grid.Row="2" Grid.Column="0" VerticalAlignment="Top" Click="table_vivnil_player_Click" Margin="0,2,0,0"/>
+        <Button x:Name="table_music_sustem" Content="Таблица music_sustem" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Click="table_music_sustem_Click"/>
+
+        <Button x:Name="table_role" Content="Таблица role" Grid.Row="3" VerticalAlignment="Top" Click="table_role_Click"/>
+        <Button x:Name="table_worker" Content="Таблица worker" Grid.Row="3" VerticalAlignment="Center" Click="table_worker_Click"/>
+        <Button x:Name="table_store" Content="Таблица store" Grid.Row="3" VerticalAlignment="Bottom" Click="table_store_Click"/>
+
+        <Button x:Name="table_branch" Content="Таблица branch" Grid.Row="4" VerticalAlignment="Top" Margin="0,2,0,0" Click="table_branch_Click"/>
+
+        <Button x:Name="table_chek" Content="Таблица chek" Grid.Row="4" Grid.Column="0" VerticalAlignment="Top" Click="table_chek_Click" Margin="0,51,0,0"/>
+        <Button x:Name="back" Content="Назад" Grid.Row="5" Grid.Column="0" Click="back_Click"/>
+    </Grid>
+</Window>
